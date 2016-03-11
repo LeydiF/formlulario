@@ -1,0 +1,42 @@
+<h1>Datos boys</h1>
+
+<%= form_tag({controller: :boys, action: :contactb}, method: :put) do %>
+
+	<div>
+	<%= label_tag :name, "Nombre" %>
+	<%= text_field_tag :name, "", placeholder: "Digite su nombre" %>
+	</div>
+
+	<div>
+	<%= label_tag :secondName, "Segundo nombre" %>
+	<%= text_field_tag :secondName, "", placeholder: "Digite su segundo nombre" %>
+	</div>
+
+	<div>
+	<%= label_tag :lastname, "Apellido" %>
+	<%= text_field_tag :lastname, "", placeholder: "Digite su apellido" %>
+	</div>
+
+	<div>
+	<%= label_tag :secondLastname, "Segundo apellido" %>
+	<%= text_field_tag :secondLastname, "", placeholder: "Digite su segundo apellido" %>
+	</div>
+
+	<div>
+	<%= label_tag :ti, "Ti o resgistro civil" %>
+	<%= text_field_tag :ti, "", placeholder: "Digite su numero de identificacion o registro civil" %>
+	</div>
+
+	<div>
+	<%= label_tag :fechaNacimiento, "Fecha de nacimiento" %>
+	<%= text_field_tag :fechaNacimiento, "", placeholder: "Digite su edad" %>
+	</div>
+
+	<div>
+	<%= label_tag :edad, "Edad" %>
+	<%= text_field_tag :edad, "", placeholder: "Digite su fecha de nacimiento" %>
+	</div>
+
+	<%= submit_tag %>
+
+<%end%>
