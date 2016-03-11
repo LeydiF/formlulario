@@ -29,13 +29,34 @@
 
 	<div>
 	<%= label_tag :fechaNacimiento, "Fecha de nacimiento" %>
-	<%= text_field_tag :fechaNacimiento, "", placeholder: "Digite su edad" %>
+	 <%= date_field(:user, :fechaNacimiento) %>
 	</div>
 
 	<div>
 	<%= label_tag :edad, "Edad" %>
-	<%= text_field_tag :edad, "", placeholder: "Digite su fecha de nacimiento" %>
+	<%= text_field_tag :edad, "", placeholder: "Digite su edad" %>
 	</div>
+
+	<div>
+	<%= label_tag :sexo, "Sexo" %>
+	<%= select_tag :sexo, options_for_select(["Femenino", "Masculino"]) %>
+	</div>
+
+	<div>
+	<%= label_tag :nombreCompletoM, "Nombre completo de la madre" %>
+	<%= text_field_tag :nombreCompletoM, "", placeholder: "Digite nombre completo de la madre" %>
+	</div>
+
+	<div>
+	<%= label_tag :nombreCompletoP, "Nombre completo del padre" %>
+	<%= text_field_tag :nombreCompletoP, "", placeholder: "Digite nombre completo del padre" %>
+	</div>
+
+	<div>
+	<%= label_tag :vacunas, "Vacunas" %>
+	<%= text_field_tag :vacunas, "", placeholder: "Seleccione sus vacunas" %>
+	</div>
+
 
 	<%= submit_tag %>
 
