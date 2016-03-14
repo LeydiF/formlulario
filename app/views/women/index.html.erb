@@ -1,0 +1,59 @@
+<h1>Datos mujeres</h1>
+
+<%= form_tag({controller: :women, action: :contactm}, method: :put) do %>
+
+	<div>
+	<%= label_tag :name, "Nombre" %>
+	<%= text_field_tag :name, "", placeholder: "Digite su nombre" %>
+	</div>
+
+	<div>
+	<%= label_tag :secondName, "Segundo nombre" %>
+	<%= text_field_tag :secondName, "", placeholder: "Digite su segundo nombre" %>
+	</div>
+
+	<div>
+	<%= label_tag :lastname, "Apellido" %>
+	<%= text_field_tag :lastname, "", placeholder: "Digite su apellido" %>
+	</div>
+
+	<div>
+	<%= label_tag :secondLastname, "Segundo apellido" %>
+	<%= text_field_tag :secondLastname, "", placeholder: "Digite su segundo apellido" %>
+	</div>
+
+	<div>
+	<%= label_tag :fechaNacimiento, "Fecha de nacimiento" %>
+	 <%= date_field(:user, :fechaNacimiento) %>
+	</div>
+
+	<div>
+	<%= label_tag :ti, "Ti o resgistro civil" %>
+	<%= text_field_tag :ti, "", placeholder: "Digite su numero de identificacion o registro civil" %>
+	</div>
+
+	<div>
+	<%= label_tag :estado, "Estado" %>
+	<%= text_field_tag :estado, "", placeholder: "Digite su estado civil" %>
+	</div>
+
+
+	<div>
+	<%= label_tag :numeroHijos, "Numero de hijos" %>
+	<%= text_field_tag :numeroHijos, "", placeholder: "Digite el numero de hijos" %>
+	</div>
+
+	<div>
+	<%= label_tag :numeroAbortos, "Numero de abortos" %>
+	<%= text_field_tag :numeroAbortos, "", placeholder: "Digite el numero de abortos" %>
+	</div>
+
+	<div>
+	<%= label_tag :problemas, "Problemas con algun embarazo" %>
+	<%= text_area_tag :problemas, "", placeholder: "Escriba si tuvo problemas con algun embarazo" %>
+	</div>
+
+
+	<%= submit_tag %>
+
+<%end%>

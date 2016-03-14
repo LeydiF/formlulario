@@ -2559,3 +2559,191 @@ Started GET "/boys" for 127.0.0.1 at 2016-03-11 17:52:05 -0500
 Processing by BoysController#index as HTML
   Rendered boys/index.html.erb within layouts/application (1.0ms)
 Completed 200 OK in 24ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/women" for 127.0.0.1 at 2016-03-14 13:34:01 -0500
+
+ActionController::RoutingError (No route matches [GET] "/women"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/leydi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/leydi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/leydi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.6ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (46.8ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (30.6ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (63.8ms)
+
+
+Started GET "/women" for 127.0.0.1 at 2016-03-14 13:35:03 -0500
+Processing by WomenController#index as HTML
+  Rendered women/index.html.erb within layouts/application (11.2ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (No route matches {:action=>"contactb", :controller=>"women"}):
+    1: <h1>Datos mujeres</h1>
+    2: 
+    3: <%= form_tag({controller: :women, action: :contactb}, method: :put) do %>
+    4: 
+    5: 	<div>
+    6: 	<%= label_tag :name, "Nombre" %>
+  app/views/women/index.html.erb:3:in `_app_views_women_index_html_erb___182694941__647749948'
+
+
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.0ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.1ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (50.1ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (4.2ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (3.8ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (42.3ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (73.9ms)
+
+
+Started GET "/women" for 127.0.0.1 at 2016-03-14 13:41:07 -0500
+Processing by WomenController#index as HTML
+  Rendered women/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 281ms (Views: 280.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-14 13:41:08 -0500
+
+
+Started GET "/assets/women.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-14 13:41:08 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-14 13:41:08 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-14 13:41:08 -0500
+
+
+Started PUT "/contactm" for 127.0.0.1 at 2016-03-14 13:41:22 -0500
+Processing by WomenController#contactm as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vi0wDn2xE47Lt5SIc4Z7TfdP4jgp60f6A5UKx2gUc02t4YQj9ohbX21+bgs/+lFdxw9D6pOvld0utyI/Bn7oaw==", "name"=>"rtyurts", "secondName"=>"rtt", "lastname"=>"", "secondLastname"=>"", "user"=>{"fechaNacimiento"=>""}, "ti"=>"", "estado"=>"", "numeroHijos"=>"", "numeroAbortos"=>"", "problemas"=>"", "commit"=>"Save changes"}
+  Rendered women/contactm.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started PUT "/contactm" for 127.0.0.1 at 2016-03-14 13:41:34 -0500
+Processing by WomenController#contactm as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vi0wDn2xE47Lt5SIc4Z7TfdP4jgp60f6A5UKx2gUc02t4YQj9ohbX21+bgs/+lFdxw9D6pOvld0utyI/Bn7oaw==", "name"=>"rtyurts", "secondName"=>"rttfjgf", "lastname"=>"jgfjg", "secondLastname"=>"", "user"=>{"fechaNacimiento"=>""}, "ti"=>"", "estado"=>"", "numeroHijos"=>"", "numeroAbortos"=>"", "problemas"=>"", "commit"=>"Save changes"}
+  Rendered women/contactm.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/men" for 127.0.0.1 at 2016-03-14 13:45:07 -0500
+Processing by MenController#index as HTML
+  Rendered men/index.html.erb within layouts/application (17.9ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (No route matches {:action=>"contacth", :controller=>"men"}):
+    1: <h1>Datos hombres</h1>
+    2: 
+    3: <%= form_tag({controller: :men, action: :contacth}, method: :put) do %>
+    4: 
+    5: 	<div>
+    6: 	<%= label_tag :name, "Nombre" %>
+  app/views/men/index.html.erb:3:in `_app_views_men_index_html_erb___850984631__650342578'
+
+
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.4ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.5ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (48.1ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (42.2ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (77.4ms)
+
+
+Started GET "/men" for 127.0.0.1 at 2016-03-14 13:45:37 -0500
+Processing by MenController#index as HTML
+  Rendered men/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 42ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-14 13:45:37 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-14 13:45:37 -0500
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-14 13:45:37 -0500
+
+
+Started GET "/assets/women.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-14 13:45:37 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-14 13:45:37 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-14 13:45:37 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-14 13:45:37 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-14 13:45:37 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-14 13:45:37 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-14 13:45:37 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-14 13:45:37 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-14 13:45:37 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-14 13:45:37 -0500
+
+
+Started PUT "/contacth" for 127.0.0.1 at 2016-03-14 13:45:43 -0500
+Processing by MenController#contacth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EnYel6kkJaZgkBIC5Pe0mden3gaOIlMwgDvewpQdvhIBuqq6Ih1td8ZZ6IGoi56J5+d/1DRmgRetGfY6+nclNA==", "name"=>"gdfjxg", "secondName"=>"dfhf", "lastname"=>"hdfghhh", "secondLastname"=>"", "ti"=>"", "user"=>{"fechaNacimiento"=>""}, "edad"=>"", "sexo"=>"Femenino", "nombreCompletoM"=>"", "nombreCompletoP"=>"", "vacunas"=>"", "commit"=>"Save changes"}
+  Rendered men/contacth.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 38.1ms | ActiveRecord: 0.0ms)
