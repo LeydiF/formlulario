@@ -5,57 +5,65 @@
 	<div>
 	<%= label_tag :name, "Nombre" %>
 	<%= text_field_tag :name, "", placeholder: "Digite su nombre" %>
-	</div>
+	</div><br>
 
 	<div>
 	<%= label_tag :secondName, "Segundo nombre" %>
 	<%= text_field_tag :secondName, "", placeholder: "Digite su segundo nombre" %>
-	</div>
+	</div><br>
 
 	<div>
 	<%= label_tag :lastname, "Apellido" %>
 	<%= text_field_tag :lastname, "", placeholder: "Digite su apellido" %>
-	</div>
+	</div><br>
 
 	<div>
 	<%= label_tag :secondLastname, "Segundo apellido" %>
 	<%= text_field_tag :secondLastname, "", placeholder: "Digite su segundo apellido" %>
-	</div>
+	</div><br>
 
 	<div>
 	<%= label_tag :ti, "Ti o resgistro civil" %>
 	<%= text_field_tag :ti, "", placeholder: "Digite su numero de identificacion o registro civil" %>
-	</div>
+	</div><br>
 
 	<div>
 	<%= label_tag :fechaNacimiento, "Fecha de nacimiento" %>
 	 <%= date_field(:user, :fechaNacimiento) %>
-	</div>
+	</div><br>
 
 	<div>
 	<%= label_tag :edad, "Edad" %>
 	<%= text_field_tag :edad, "", placeholder: "Digite su edad" %>
-	</div>
+	</div><br>
 
 	<div>
 	<%= label_tag :sexo, "Sexo" %>
 	<%= select_tag :sexo, options_for_select(["Femenino", "Masculino"]) %>
-	</div>
+	</div><br>
 
 	<div>
 	<%= label_tag :nombreCompletoM, "Nombre completo de la madre" %>
 	<%= text_field_tag :nombreCompletoM, "", placeholder: "Digite nombre completo de la madre" %>
-	</div>
+	</div><br>
 
 	<div>
 	<%= label_tag :nombreCompletoP, "Nombre completo del padre" %>
 	<%= text_field_tag :nombreCompletoP, "", placeholder: "Digite nombre completo del padre" %>
-	</div>
+	</div><br>
 
 	<div>
-	<%= label_tag :vacunas, "Vacunas" %>
-	<%= text_field_tag :vacunas, "", placeholder: "Seleccione sus vacunas" %>
-	</div>
+	<%= label_tag :vacunas, "Vacunas: " %>
+	<br>
+	<%= label_tag :sarampion %>
+	<%= check_box_tag :sarampion %>
+
+	<%= label_tag :tetano %>
+	<%= check_box_tag :tetato %>
+
+	<%= label_tag :gripe %>
+	<%= check_box_tag :gripe %>
+	</div><br>
 
 
 	<%= submit_tag %>
