@@ -32,6 +32,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# gem para subir un avatar
+gem 'carrierwave'
+
 # autentificacion
 gem 'devise', '~> 4.0.0.rc1'
 
