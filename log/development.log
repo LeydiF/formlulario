@@ -6114,3 +6114,472 @@ Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde45
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 13:58:37 -0500
+
+
+Started GET "/avatar" for 127.0.0.1 at 2016-03-16 14:23:14 -0500
+Processing by UsersController#avatar as HTML
+  [1m[36mLogin Load (0.2ms)[0m  [1mSELECT "logins".* FROM "logins"[0m
+  Rendered users/avatar.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (couldn't find file 'bootstrap_and_overrides' with type 'text/css'):
+    2: <html>
+    3: <head>
+    4:   <title>Formulario</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css:13
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__840321889_95907340'
+
+
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (22.0ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.7ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (60.8ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (32.4ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (71.1ms)
+
+
+Started GET "/avatar" for 127.0.0.1 at 2016-03-16 14:23:26 -0500
+Processing by UsersController#avatar as HTML
+  [1m[35mLogin Load (0.2ms)[0m  SELECT "logins".* FROM "logins"
+  Rendered users/avatar.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 68ms (Views: 67.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:23:27 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:23:27 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 14:23:27 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:23:27 -0500
+
+
+Started GET "/assets/application.self-75c3ea9dd8e09adc57aa5b93791b05e0dfe0e1215c8eea94cd0b797ddb49524d.css?body=1" for 127.0.0.1 at 2016-03-16 14:23:27 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 14:23:27 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 14:23:27 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:23:27 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:23:27 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:23:27 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:23:27 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 14:23:27 -0500
+
+
+Started GET "/avatar" for 127.0.0.1 at 2016-03-16 14:23:47 -0500
+Processing by UsersController#avatar as HTML
+  [1m[36mLogin Load (0.2ms)[0m  [1mSELECT "logins".* FROM "logins"[0m
+  Rendered users/avatar.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 64ms (Views: 63.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:23:47 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:23:47 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:23:47 -0500
+
+
+Started GET "/assets/application.self-4d5a84375cc6b4f9434716e7caabea5e8394eef95259a1872a41444f9372ece6.css?body=1" for 127.0.0.1 at 2016-03-16 14:23:47 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 14:23:47 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 14:23:47 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 14:23:47 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:23:47 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:23:47 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:23:47 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 14:23:47 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:23:47 -0500
+
+
+Started GET "/avatar" for 127.0.0.1 at 2016-03-16 14:40:02 -0500
+Processing by UsersController#avatar as HTML
+  [1m[35mLogin Load (0.3ms)[0m  SELECT "logins".* FROM "logins"
+  Rendered users/avatar.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 63ms (Views: 61.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:40:02 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:40:02 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:40:02 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 14:40:02 -0500
+
+
+Started GET "/assets/application.self-f13ce75d55240e302024000414d45f32f7b7c8ba957045f72f8044f84bd1856b.css?body=1" for 127.0.0.1 at 2016-03-16 14:40:02 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 14:40:02 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:40:02 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:40:02 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 14:40:02 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:40:03 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 14:40:03 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:40:03 -0500
+
+
+Started GET "/avatar" for 127.0.0.1 at 2016-03-16 14:41:24 -0500
+Processing by UsersController#avatar as HTML
+  [1m[36mLogin Load (0.2ms)[0m  [1mSELECT "logins".* FROM "logins"[0m
+  Rendered users/avatar.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 52ms (Views: 51.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:41:24 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:41:24 -0500
+
+
+Started GET "/assets/application.self-f13ce75d55240e302024000414d45f32f7b7c8ba957045f72f8044f84bd1856b.css?body=1" for 127.0.0.1 at 2016-03-16 14:41:24 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:41:24 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 14:41:24 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:41:24 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:41:24 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:41:24 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 14:41:24 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 14:41:24 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:41:24 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 14:41:24 -0500
+
+
+Started GET "/avatar" for 127.0.0.1 at 2016-03-16 14:41:27 -0500
+Processing by UsersController#avatar as HTML
+  [1m[35mLogin Load (0.2ms)[0m  SELECT "logins".* FROM "logins"
+  Rendered users/avatar.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:41:27 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:41:27 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:41:27 -0500
+
+
+Started GET "/assets/application.self-f13ce75d55240e302024000414d45f32f7b7c8ba957045f72f8044f84bd1856b.css?body=1" for 127.0.0.1 at 2016-03-16 14:41:27 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 14:41:27 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 14:41:27 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:41:28 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 14:41:28 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:41:28 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:41:28 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:41:28 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 14:41:28 -0500
+
+
+Started GET "/avatar" for 127.0.0.1 at 2016-03-16 14:41:31 -0500
+Processing by UsersController#avatar as HTML
+  [1m[36mLogin Load (0.2ms)[0m  [1mSELECT "logins".* FROM "logins"[0m
+  Rendered users/avatar.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 58ms (Views: 57.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/avatar" for 127.0.0.1 at 2016-03-16 14:47:04 -0500
+Processing by UsersController#avatar as HTML
+  [1m[35mLogin Load (0.2ms)[0m  SELECT "logins".* FROM "logins"
+  Rendered users/avatar.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 59ms (Views: 58.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:47:04 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:47:04 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:47:04 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 14:47:04 -0500
+
+
+Started GET "/assets/application.self-83ca1de49262b618f26442d2a004f9366f228beccac8603c6d3d77470b7359b4.css?body=1" for 127.0.0.1 at 2016-03-16 14:47:04 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:47:04 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:47:04 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 14:47:04 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 14:47:04 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:47:04 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:47:04 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 14:47:04 -0500
+
+
+Started GET "/avatar" for 127.0.0.1 at 2016-03-16 14:47:26 -0500
+Processing by UsersController#avatar as HTML
+  [1m[36mLogin Load (0.2ms)[0m  [1mSELECT "logins".* FROM "logins"[0m
+  Rendered users/avatar.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 57ms (Views: 56.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:47:26 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:47:26 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:47:27 -0500
+
+
+Started GET "/assets/application.self-2552444d316167cf147abadb3aa157b85d5736d02e6542d702c138bab2be266b.css?body=1" for 127.0.0.1 at 2016-03-16 14:47:27 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 14:47:27 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 14:47:27 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 14:47:27 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:47:27 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:47:27 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:47:27 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:47:27 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 14:47:27 -0500
+
+
+Started GET "/avatar" for 127.0.0.1 at 2016-03-16 14:48:23 -0500
+Processing by UsersController#avatar as HTML
+  [1m[35mLogin Load (0.2ms)[0m  SELECT "logins".* FROM "logins"
+  Rendered users/avatar.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 61ms (Views: 60.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:48:23 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:48:23 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:48:23 -0500
+
+
+Started GET "/assets/application.self-b4689cbd3e6613cd7b611d4269e637c2376daffab63b772975c973a0d7b660f3.css?body=1" for 127.0.0.1 at 2016-03-16 14:48:23 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 14:48:23 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 14:48:23 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:48:23 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:48:23 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 14:48:23 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:48:23 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:48:23 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 14:48:23 -0500
+
+
+Started GET "/avatar" for 127.0.0.1 at 2016-03-16 14:49:29 -0500
+Processing by UsersController#avatar as HTML
+  [1m[36mLogin Load (0.2ms)[0m  [1mSELECT "logins".* FROM "logins"[0m
+  Rendered users/avatar.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 45ms (Views: 44.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:49:29 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:49:29 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:49:29 -0500
+
+
+Started GET "/assets/application.self-b4689cbd3e6613cd7b611d4269e637c2376daffab63b772975c973a0d7b660f3.css?body=1" for 127.0.0.1 at 2016-03-16 14:49:29 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 14:49:29 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 14:49:29 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:49:29 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 14:49:29 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:49:29 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:49:29 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:49:30 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 14:49:30 -0500
+
+
+Started GET "/avatar" for 127.0.0.1 at 2016-03-16 14:50:52 -0500
+Processing by UsersController#avatar as HTML
+  [1m[35mLogin Load (0.2ms)[0m  SELECT "logins".* FROM "logins"
+  Rendered users/avatar.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 37ms (Views: 36.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:50:52 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:50:52 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 14:50:52 -0500
+
+
+Started GET "/assets/application.self-b4689cbd3e6613cd7b611d4269e637c2376daffab63b772975c973a0d7b660f3.css?body=1" for 127.0.0.1 at 2016-03-16 14:50:52 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 14:50:52 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 14:50:52 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 14:50:52 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:50:52 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:50:52 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:50:52 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 14:50:52 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 14:50:52 -0500

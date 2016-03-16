@@ -4,7 +4,7 @@
       
         <strong>Nombre: </strong> <%= avatar.name %><br>
         <strong>Apellido: </strong> <%= avatar.lastname%><br>
-        <strong>Avatar: </strong><img src="<%= avatar.avatar %>"/> <br>
-        <strong>Email: </strong> <%= avatar.email %><br>
+        <strong>Avatar: </strong><br><%= image_tag avatar.avatar %><br>
+        <strong>Email: </strong><%= avatar.email %><br>
   		<hr>
     <% end %>

@@ -10,6 +10,23 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
+ *= require users
+ *= require boys
+ *= require men
+ *= require boys
  *= require_self
  */
+
+ *{
+ 	font-family:"Verdana";
+ 	line-height: 1.5em;
+ 	color:#330033;
+ }
+
+ h1{
+ 	color:#660066;
+ }
+
+strong{
+ 	color:#660066;
+ }
