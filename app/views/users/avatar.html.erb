@@ -1,0 +1,10 @@
+<h1>Lista de registros</h1>
+
+<% @login.each do |avatar| %>
+      
+        <strong>Nombre: </strong> <%= avatar.name %><br>
+        <strong>Apellido: </strong> <%= avatar.lastname%><br>
+        <strong>Avatar: </strong><img src="<%= avatar.avatar %>"/> <br>
+        <strong>Email: </strong> <%= avatar.email %><br>
+  		<hr>
+    <% end %>

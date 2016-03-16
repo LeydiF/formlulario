@@ -19,6 +19,8 @@ end
   get '/contactb', to: 'boys#contactb', as: :boys_contactb
   get '/contactm', to: 'women#contactm'
   get '/contacth', to: 'men#contacth'
+  get '/avatar', to: 'users#avatar', as: :devise_avatar
+
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
     resources :boys
