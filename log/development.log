@@ -6583,3 +6583,761 @@ Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde45
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 14:50:52 -0500
+
+
+Started GET "/avatar" for 127.0.0.1 at 2016-03-16 15:03:01 -0500
+Processing by UsersController#avatar as HTML
+  [1m[36mLogin Load (0.2ms)[0m  [1mSELECT "logins".* FROM "logins"[0m
+  Rendered users/avatar.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 59ms (Views: 58.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 15:03:01 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 15:03:01 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 15:03:01 -0500
+
+
+Started GET "/assets/application.self-e1de1cd6032df50779e83f580fd57dc20834ab49609841a4d65ac8a051c6f410.css?body=1" for 127.0.0.1 at 2016-03-16 15:03:01 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 15:03:01 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 15:03:01 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 15:03:01 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:03:01 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:03:01 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:03:01 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:03:01 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 15:03:01 -0500
+
+
+Started GET "/logins/sign_in" for 127.0.0.1 at 2016-03-16 15:03:27 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 51ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logins/sign_in" for 127.0.0.1 at 2016-03-16 15:03:55 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 53ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 15:03:56 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 15:03:56 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 15:03:56 -0500
+
+
+Started GET "/assets/application.self-b4689cbd3e6613cd7b611d4269e637c2376daffab63b772975c973a0d7b660f3.css?body=1" for 127.0.0.1 at 2016-03-16 15:03:56 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 15:03:56 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 15:03:56 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 15:03:56 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:03:56 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:03:56 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:03:56 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:03:56 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 15:03:56 -0500
+
+
+Started GET "/avatar" for 127.0.0.1 at 2016-03-16 15:04:04 -0500
+Processing by UsersController#avatar as HTML
+  [1m[35mLogin Load (0.2ms)[0m  SELECT "logins".* FROM "logins"
+  Rendered users/avatar.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/logins/sign_in" for 127.0.0.1 at 2016-03-16 15:14:56 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (7.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (15.8ms)
+Completed 500 Internal Server Error in 68ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "...rl("login.png")": expected ";", was ") no-repeat;"):
+    2: <html>
+    3: <head>
+    4:   <title>Formulario</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/login.scss:2
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__840321889_95907340'
+
+
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (19.5ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.4ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (59.0ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (41.2ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (3.4ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (82.9ms)
+
+
+Started GET "/logins/sign_in" for 127.0.0.1 at 2016-03-16 15:16:53 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 242ms (Views: 241.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.self-4b57b8ff6688333f3ded31eef176be65780736698e26a826fa5fcbf8371630c4.css?body=1" for 127.0.0.1 at 2016-03-16 15:16:53 -0500
+
+
+Started GET "/assets/application.self-1029bb273b981ff7e68c8643e9f969ed1f875b0aab8d0e0e825480a916287936.css?body=1" for 127.0.0.1 at 2016-03-16 15:16:53 -0500
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 15:16:53 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 15:16:53 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 15:16:53 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 15:16:53 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 15:16:53 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:16:53 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:16:53 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 15:16:53 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 15:16:53 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:16:53 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:16:53 -0500
+
+
+Started GET "/assets/login-1f9acb624281816dfd8bd2c8285b0ec0e4138d91b3c5a49aefcd736907f0351d.png" for 127.0.0.1 at 2016-03-16 15:16:53 -0500
+
+
+Started GET "/logins/sign_in" for 127.0.0.1 at 2016-03-16 15:18:12 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 54ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 15:18:12 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 15:18:12 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 15:18:12 -0500
+
+
+Started GET "/assets/login.self-4b57b8ff6688333f3ded31eef176be65780736698e26a826fa5fcbf8371630c4.css?body=1" for 127.0.0.1 at 2016-03-16 15:18:12 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 15:18:12 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 15:18:12 -0500
+
+
+Started GET "/assets/application.self-1029bb273b981ff7e68c8643e9f969ed1f875b0aab8d0e0e825480a916287936.css?body=1" for 127.0.0.1 at 2016-03-16 15:18:12 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 15:18:12 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:18:12 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:18:12 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 15:18:12 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:18:12 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:18:12 -0500
+
+
+Started GET "/assets/login-1f9acb624281816dfd8bd2c8285b0ec0e4138d91b3c5a49aefcd736907f0351d.png" for 127.0.0.1 at 2016-03-16 15:18:12 -0500
+
+
+Started GET "/logins/sign_in" for 127.0.0.1 at 2016-03-16 15:18:50 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 112ms (Views: 110.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 15:18:50 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 15:18:50 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 15:18:50 -0500
+
+
+Started GET "/assets/login.self-e57788e4f3e69bf92d3bae89ba4f5ccfd4475b19dc27bec0526727a93dcae972.css?body=1" for 127.0.0.1 at 2016-03-16 15:18:50 -0500
+
+
+Started GET "/assets/application.self-1029bb273b981ff7e68c8643e9f969ed1f875b0aab8d0e0e825480a916287936.css?body=1" for 127.0.0.1 at 2016-03-16 15:18:50 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 15:18:50 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 15:18:50 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 15:18:50 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:18:50 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:18:50 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:18:50 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 15:18:50 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:18:50 -0500
+
+
+Started GET "/assets/login-1f9acb624281816dfd8bd2c8285b0ec0e4138d91b3c5a49aefcd736907f0351d.png" for 127.0.0.1 at 2016-03-16 15:18:50 -0500
+
+
+Started GET "/logins/sign_in" for 127.0.0.1 at 2016-03-16 15:54:16 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 51ms (Views: 50.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 15:54:16 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 15:54:16 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 15:54:16 -0500
+
+
+Started GET "/assets/login.self-e57788e4f3e69bf92d3bae89ba4f5ccfd4475b19dc27bec0526727a93dcae972.css?body=1" for 127.0.0.1 at 2016-03-16 15:54:16 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 15:54:16 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:54:16 -0500
+
+
+Started GET "/assets/application.self-1029bb273b981ff7e68c8643e9f969ed1f875b0aab8d0e0e825480a916287936.css?body=1" for 127.0.0.1 at 2016-03-16 15:54:16 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 15:54:16 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:54:16 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 15:54:16 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:54:16 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 15:54:16 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 15:54:16 -0500
+
+
+Started GET "/assets/login-1f9acb624281816dfd8bd2c8285b0ec0e4138d91b3c5a49aefcd736907f0351d.png" for 127.0.0.1 at 2016-03-16 15:54:17 -0500
+
+
+Started GET "/logins/sign_in" for 127.0.0.1 at 2016-03-16 15:55:56 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 49ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logins/sign_in" for 127.0.0.1 at 2016-03-16 16:17:43 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (13.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 69ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 16:17:44 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 16:17:44 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 16:17:44 -0500
+
+
+Started GET "/assets/application.self-1029bb273b981ff7e68c8643e9f969ed1f875b0aab8d0e0e825480a916287936.css?body=1" for 127.0.0.1 at 2016-03-16 16:17:44 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 16:17:44 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 16:17:44 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 16:17:44 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:17:44 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:17:44 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:17:44 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 16:17:44 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:17:44 -0500
+
+
+Started GET "/assets/login.self-e57788e4f3e69bf92d3bae89ba4f5ccfd4475b19dc27bec0526727a93dcae972.css?body=1" for 127.0.0.1 at 2016-03-16 16:17:44 -0500
+
+
+Started GET "/logins/sign_in" for 127.0.0.1 at 2016-03-16 16:17:53 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 50ms (Views: 48.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 16:17:53 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 16:17:53 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 16:17:53 -0500
+
+
+Started GET "/assets/login.self-e57788e4f3e69bf92d3bae89ba4f5ccfd4475b19dc27bec0526727a93dcae972.css?body=1" for 127.0.0.1 at 2016-03-16 16:17:53 -0500
+
+
+Started GET "/assets/application.self-1029bb273b981ff7e68c8643e9f969ed1f875b0aab8d0e0e825480a916287936.css?body=1" for 127.0.0.1 at 2016-03-16 16:17:53 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 16:17:53 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 16:17:53 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:17:53 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:17:53 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 16:17:53 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 16:17:53 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:17:53 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:17:53 -0500
+
+
+Started GET "/logins/sign_in" for 127.0.0.1 at 2016-03-16 16:18:05 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 58ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 16:18:05 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 16:18:05 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 16:18:05 -0500
+
+
+Started GET "/assets/login.self-e57788e4f3e69bf92d3bae89ba4f5ccfd4475b19dc27bec0526727a93dcae972.css?body=1" for 127.0.0.1 at 2016-03-16 16:18:05 -0500
+
+
+Started GET "/assets/application.self-1029bb273b981ff7e68c8643e9f969ed1f875b0aab8d0e0e825480a916287936.css?body=1" for 127.0.0.1 at 2016-03-16 16:18:05 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 16:18:05 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 16:18:05 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 16:18:05 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:18:05 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:18:05 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:18:05 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:18:05 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 16:18:05 -0500
+
+
+Started GET "/assets/login-1f9acb624281816dfd8bd2c8285b0ec0e4138d91b3c5a49aefcd736907f0351d.png" for 127.0.0.1 at 2016-03-16 16:18:05 -0500
+
+
+Started GET "/logins/sign_in" for 127.0.0.1 at 2016-03-16 16:18:37 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 16:18:37 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 16:18:37 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 16:18:37 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 16:18:37 -0500
+
+
+Started GET "/assets/application.self-1029bb273b981ff7e68c8643e9f969ed1f875b0aab8d0e0e825480a916287936.css?body=1" for 127.0.0.1 at 2016-03-16 16:18:37 -0500
+
+
+Started GET "/assets/login.self-e57788e4f3e69bf92d3bae89ba4f5ccfd4475b19dc27bec0526727a93dcae972.css?body=1" for 127.0.0.1 at 2016-03-16 16:18:37 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:18:37 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 16:18:37 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 16:18:37 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:18:37 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:18:37 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:18:37 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 16:18:37 -0500
+
+
+Started GET "/assets/login-1f9acb624281816dfd8bd2c8285b0ec0e4138d91b3c5a49aefcd736907f0351d.png" for 127.0.0.1 at 2016-03-16 16:18:37 -0500
+
+
+Started GET "/logins/sign_up" for 127.0.0.1 at 2016-03-16 16:18:43 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 67ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/avatar" for 127.0.0.1 at 2016-03-16 16:19:12 -0500
+Processing by UsersController#avatar as HTML
+  [1m[36mLogin Load (4.7ms)[0m  [1mSELECT "logins".* FROM "logins"[0m
+  Rendered users/avatar.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 60ms (Views: 54.6ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/avatar" for 127.0.0.1 at 2016-03-16 16:19:42 -0500
+Processing by UsersController#avatar as HTML
+  [1m[35mLogin Load (0.2ms)[0m  SELECT "logins".* FROM "logins"
+  Rendered users/avatar.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 46ms (Views: 45.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 16:19:42 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 16:19:42 -0500
+
+
+Started GET "/assets/login.self-e57788e4f3e69bf92d3bae89ba4f5ccfd4475b19dc27bec0526727a93dcae972.css?body=1" for 127.0.0.1 at 2016-03-16 16:19:42 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 16:19:42 -0500
+
+
+Started GET "/assets/application.self-1029bb273b981ff7e68c8643e9f969ed1f875b0aab8d0e0e825480a916287936.css?body=1" for 127.0.0.1 at 2016-03-16 16:19:42 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 16:19:42 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 16:19:42 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 16:19:42 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:19:42 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:19:42 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:19:42 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:19:42 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 16:19:42 -0500
+
+
+Started GET "/avatar" for 127.0.0.1 at 2016-03-16 16:21:30 -0500
+Processing by UsersController#avatar as HTML
+  Rendered users/_login_logout.html.erb (0.5ms)
+  [1m[36mLogin Load (0.2ms)[0m  [1mSELECT "logins".* FROM "logins"[0m
+  Rendered users/avatar.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 57ms (Views: 56.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 16:21:30 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 16:21:30 -0500
+
+
+Started GET "/assets/login.self-e57788e4f3e69bf92d3bae89ba4f5ccfd4475b19dc27bec0526727a93dcae972.css?body=1" for 127.0.0.1 at 2016-03-16 16:21:30 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 16:21:30 -0500
+
+
+Started GET "/assets/application.self-1029bb273b981ff7e68c8643e9f969ed1f875b0aab8d0e0e825480a916287936.css?body=1" for 127.0.0.1 at 2016-03-16 16:21:30 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 16:21:30 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 16:21:30 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 16:21:30 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:21:30 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:21:30 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:21:30 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:21:30 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 16:21:30 -0500
+
+
+Started GET "/a" for 127.0.0.1 at 2016-03-16 16:22:38 -0500
+
+ActionController::RoutingError (No route matches [GET] "/a"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/leydi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/leydi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/leydi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.1ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.4ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (73.2ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (27.6ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (3.2ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/leydi/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (68.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-16 16:22:42 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 75ms (Views: 71.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logins/sign_up" for 127.0.0.1 at 2016-03-16 16:53:26 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 66ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/logins" for 127.0.0.1 at 2016-03-16 16:53:32 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Tr4MbreypONjCy9lV3aLf715iEFra81M/U9kMr/M70UiYWYGYxZcjdD96s2YfTkQlaoO2DTQe+vGCEBHiKG9wg==", "login"=>{"name"=>"", "lastname"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 65ms (Views: 56.9ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/logins" for 127.0.0.1 at 2016-03-16 16:54:30 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Tr4MbreypONjCy9lV3aLf715iEFra81M/U9kMr/M70UiYWYGYxZcjdD96s2YfTkQlaoO2DTQe+vGCEBHiKG9wg==", "login"=>{"name"=>"", "lastname"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered devise/shared/_links.html.erb (8.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 76ms (Views: 61.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 16:54:31 -0500
+
+
+Started GET "/assets/men.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 16:54:31 -0500
+
+
+Started GET "/assets/login.self-e57788e4f3e69bf92d3bae89ba4f5ccfd4475b19dc27bec0526727a93dcae972.css?body=1" for 127.0.0.1 at 2016-03-16 16:54:31 -0500
+
+
+Started GET "/assets/boys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-16 16:54:31 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-16 16:54:31 -0500
+
+
+Started GET "/assets/application.self-1029bb273b981ff7e68c8643e9f969ed1f875b0aab8d0e0e825480a916287936.css?body=1" for 127.0.0.1 at 2016-03-16 16:54:31 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-16 16:54:31 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-16 16:54:31 -0500
+
+
+Started GET "/assets/men.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:54:31 -0500
+
+
+Started GET "/assets/boys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:54:31 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:54:31 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-03-16 16:54:31 -0500
+
+
+Started GET "/assets/women.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-16 16:54:31 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-16 16:54:43 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (14.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (27.9ms)
+Completed 200 OK in 88ms (Views: 87.0ms | ActiveRecord: 0.0ms)
