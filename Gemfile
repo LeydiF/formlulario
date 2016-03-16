@@ -32,6 +32,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+#anadir bootstrap
+gem "twitter-bootstrap-rails"
+
 # gem para subir un avatar
 gem 'carrierwave'
 

@@ -16,6 +16,7 @@
  *= require boys
  *= require login
  *= require_self
+ *= require bootstrap_and_overrides
  */
 
  *{
