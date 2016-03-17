@@ -26,6 +26,8 @@ end
     resources :boys
     resources :women
     resources :men
+    resources :logins
+  
 
   # Example resource route with options:
   #   resources :products do
